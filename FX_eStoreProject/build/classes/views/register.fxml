@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="app.RegisterController"
+            prefWidth="400" prefHeight="300"
+            style="-fx-background-color: linear-gradient(to bottom, #e1f5fe, #b3e5fc); -fx-padding: 20;">
+
+    <children>
+        <VBox alignment="CENTER" spacing="10" layoutX="50" layoutY="20">
+
+            <Label text="Sign Up"
+                   style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #0277bd;"/>
+
+            <TextField fx:id="usernameField" promptText="Enter username"/>
+            <PasswordField fx:id="passwordField" promptText="Enter password"/>
+            <PasswordField fx:id="confirmField" promptText="Confirm password"/>
+
+            <!-- هذا هو الـ ChoiceBox المفقود -->
+            <ChoiceBox fx:id="roleChoice" prefWidth="200"/>
+
+            <HBox spacing="10" alignment="CENTER">
+                <Button fx:id="registerButton" text="Register" onAction="#handleRegister"
+                        style="-fx-background-color: #0288d1; -fx-text-fill: white;"/>
+                <Button fx:id="backButton" text="Back" onAction="#handleBack"
+                        style="-fx-background-color: #7b1fa2; -fx-text-fill: white;"/>
+            </HBox>
+        </VBox>
+    </children>
+</AnchorPane>
