@@ -1,0 +1,16 @@
+# NetBeans / Ant build output
+build/
+dist/
+nbproject/private/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.class

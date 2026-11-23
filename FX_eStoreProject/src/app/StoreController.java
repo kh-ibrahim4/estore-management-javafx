@@ -1,4 +1,3 @@
-// End of file - Name: [khalil.alabsi] - ID: [1320225638]
 package app;
 
 import database.DBConnection;
@@ -366,4 +365,3 @@ public class StoreController {
         return -1;
     }
 }
-// End of file - Name: [khalil.alabsi] - ID: [1320225638]
